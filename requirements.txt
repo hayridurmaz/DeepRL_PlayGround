@@ -1,0 +1,7 @@
+matplotlib
+
+gym
+numpy
+Pillow
+torch
+torchvision
