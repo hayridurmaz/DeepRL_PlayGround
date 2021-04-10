@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c972ef8-a9e6-45d2-bb93-52bef3fa389a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DeepRL_PlayGround.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepRL_PlayGround.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CartPole.py" beforeDir="false" afterPath="$PROJECT_DIR$/CartPole.py" afterDir="false" />
     </list>
@@ -65,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618071440380</updated>
       <workItem from="1618071453689" duration="3529000" />
-      <workItem from="1618091107852" duration="1538000" />
+      <workItem from="1618091107852" duration="2284000" />
+      <workItem from="1618094284101" duration="387000" />
     </task>
     <servers />
   </component>
@@ -73,7 +72,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepRL_PlayGround$CartPole.coverage" NAME="CartPole Coverage Results" MODIFIED="1618093497380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepRL_PlayGround$CartPole.coverage" NAME="CartPole Coverage Results" MODIFIED="1618094606800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepRL_PlayGround$main.coverage" NAME="main Coverage Results" MODIFIED="1618073689690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
