@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c972ef8-a9e6-45d2-bb93-52bef3fa389a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CNN/cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IBM_Notebooks/CNN/cuda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DeepRL_PlayGround.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepRL_PlayGround.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/05f_DEMO_Transfer_Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/IBM_Notebooks/CNN/05f_DEMO_Transfer_Learning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/IBM_Notebooks/CNN/cnn.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +52,11 @@
       <recent name="E:\Projects\DeepRL_PlayGround\MealPlanning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\DeepRL_PlayGround\IBM_Notebooks" />
       <recent name="E:\Projects\DeepRL_PlayGround\MealPlanning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cnn">
+  <component name="RunManager" selected="Python.cuda">
     <configuration name="CartPole" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepRL_PlayGround" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,8 +123,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cuda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepRL_PlayGround" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN/cuda.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cuda" />
         <item itemvalue="Python.cnn" />
         <item itemvalue="Python.MealPlanning" />
         <item itemvalue="Python.CartPole" />
@@ -143,7 +168,14 @@
       <workItem from="1618125798619" duration="5401000" />
       <workItem from="1619219413052" duration="824000" />
       <workItem from="1619220818084" duration="2418000" />
-      <workItem from="1619227181879" duration="340000" />
+      <workItem from="1619227181879" duration="1216000" />
+      <workItem from="1619278147783" duration="980000" />
+      <workItem from="1619279568032" duration="874000" />
+      <workItem from="1619350980792" duration="555000" />
+      <workItem from="1619354730006" duration="1785000" />
+      <workItem from="1619360526813" duration="4296000" />
+      <workItem from="1619481327925" duration="582000" />
+      <workItem from="1619988877056" duration="1220000" />
     </task>
     <servers />
   </component>
@@ -162,7 +194,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepRL_PlayGround$MealPlanning.coverage" NAME="MealPlanning Coverage Results" MODIFIED="1618136254140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MealPlanning" />
+    <SUITE FILE_PATH="coverage/DeepRL_PlayGround$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1619227554606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/DeepRL_PlayGround$cuda.coverage" NAME="cuda Coverage Results" MODIFIED="1619355959898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN" />
+    <SUITE FILE_PATH="coverage/DeepRL_PlayGround$MealPlanning.coverage" NAME="MealPlanning Coverage Results" MODIFIED="1619227544499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MealPlanning" />
     <SUITE FILE_PATH="coverage/DeepRL_PlayGround$CartPole.coverage" NAME="CartPole Coverage Results" MODIFIED="1618134711174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepRL_PlayGround$main.coverage" NAME="main Coverage Results" MODIFIED="1618073689690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
