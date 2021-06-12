@@ -170,10 +170,10 @@ def testSVM(train_data, train_labels, test_data, test_labels):
     print("---------SVM---------")
     print("SVM Accuracy:", metrics.accuracy_score(test_labels, y_pred))
     precision, recall, fscore, support = score(test_labels, y_pred)
-    print('precision: {}'.format(precision))
-    print('recall: {}'.format(recall))
+    # print('precision: {}'.format(precision))
+    # print('recall: {}'.format(recall))
     print('fscore: {}'.format(fscore))
-    print('support: {}'.format(support))
+    # print('support: {}'.format(support))
     print("---------SVM---------")
 
     """
@@ -215,7 +215,7 @@ def testKMeans(train_data, train_labels, test_data, test_labels):
     y_pred = km.predict(test_data)
     plotData(test_data, y_pred, title="KMeans Result")
     print("---------KMEANS---------")
-    print("K-Means Accuracy:", metrics.accuracy_score(test_labels, y_pred))
+    # print("K-Means Accuracy:", metrics.accuracy_score(test_labels, y_pred))
     print("K-Means Purity: ", purity_score(y_true=test_labels, y_pred=y_pred))
     print("K-Means Rand-index score: ", rand_index_score(test_labels, y_pred))
     print("---------KMEANS---------")
@@ -293,10 +293,15 @@ parser.add_argument("-n", "--no-random", action="store_true",
                     help="Create dataset with make_blobs instead of random")
 parser.add_argument("-b", "--best-estimator", action="store_true",
                     help="While testing svm, using best estimator instead of pre-defined ones.(Takes more time)")
+parser.add_argument("-f", "--file-output", action="store_true",
+                    help="Write output to a file instead of terminal.")
 args = parser.parse_args()
 
 if __name__ == '__main__':
-    with open('output', 'a+') as f:
-        with redirect_stdout(f):
-            main()
-            print('\n')
+    if args.file_output:
+        with open('output', 'a+') as f:
+            with redirect_stdout(f):
+                main()
+                print('\n')
+    else:
+        main()
