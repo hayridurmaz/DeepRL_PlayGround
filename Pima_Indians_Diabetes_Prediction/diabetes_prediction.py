@@ -12,6 +12,11 @@ dataset = numpy.loadtxt("pima-indians-diabetes.csv", delimiter=",")
 Z = dataset[:,0:8]
 Q = dataset[:,8]
 
+pre_model = Sequential()
+pre_model.add(Dense(12, input_dim=8, activation='relu'))
+pre_model.add(Dense(8, activation='relu'))
+pre_model.add(Dense(1, activation='sigmoid'))
+
 
 model = Sequential()
 model.add(Dense(12, input_dim=8, activation='relu'))

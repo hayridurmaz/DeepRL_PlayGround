@@ -1,0 +1,201 @@
+SVC(C=0.1, class_weight='balanced', gamma=0.0001, kernel='linear')
+Best estimator done in 476.514s
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 1.0
+precision: [1. 1.]
+recall: [1. 1.]
+fscore: [1. 1.]
+support: [157 143]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.0
+K-Means Purity:  1.0
+K-Means Rand-index score:  1.0
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.9966666666666667
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 1.0
+precision: [1. 1.]
+recall: [1. 1.]
+fscore: [1. 1.]
+support: [157 143]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.0
+K-Means Purity:  1.0
+K-Means Rand-index score:  1.0
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.9966666666666667
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 1.0
+precision: [1. 1.]
+recall: [1. 1.]
+fscore: [1. 1.]
+support: [157 143]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.0
+K-Means Purity:  1.0
+K-Means Rand-index score:  1.0
+---------KMEANS---------
+---------SVM---------
+SVM Accuracy: 1.0
+precision: [1. 1.]
+recall: [1. 1.]
+fscore: [1. 1.]
+support: [157 143]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.0
+K-Means Purity:  1.0
+K-Means Rand-index score:  1.0
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.9966666666666667
+---------NEURAL NETS---------
+
+
+---------SVM---------
+SVM Accuracy: 0.5083333333333333
+precision: [0.50819672 0.50847458]
+recall: [0.51666667 0.5       ]
+fscore: [0.51239669 0.50420168]
+support: [300 300]
+---------SVM---------
+---------KMEANS---------
+K-Means Accuracy: 0.3
+K-Means Purity:  0.53
+K-Means Rand-index score:  0.5009682804674458
+---------KMEANS---------
+---------NEURAL NETS---------
+SCORE: 0.5
+---------NEURAL NETS---------
+
+

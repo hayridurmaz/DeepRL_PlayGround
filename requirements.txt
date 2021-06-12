@@ -6,3 +6,7 @@ Pillow
 torch
 torchvision
 keras
+scipy
+scikit-learn
+ipython
+pandas
